@@ -9,15 +9,15 @@
 * $session = {
 "uuid":"xxxx",//会话id
 类型：0，
-"conHost":"google.com",
+"conHost":"153.3.236.22",
 "conPort":443，
 "代理":{
 "名称":"customHttp",
 "主机":"192.168.1.139",
 "端口":"7222",
-"用户名":"用户名",
-"密码":"密码",
-"加密":"aes-128",
+"用户名":"",
+"密码":"",
+"加密":"",
 "allowInsecure":false,
 "ceritificateHost":""，
 "isTLS":false
