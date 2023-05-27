@@ -58,7 +58,7 @@ function _writeHttpHeader() {
     let conHost = $session.conHost
     let conPort = $session.conPort
 
-    var header = `CONNECT ${conHost}:${conPort}HTTP/1.1\r\nHost: 157.0.148.53:443\r\nConnection: keep-alive\r\nUser-Agent: BaiduBoxApp/13.33.0 iPhone; CPU iPhone OS 16_4 like Mac OS X\r\nX-T5-Auth: 123456789\r\n\r\n`
+    var header = `CONNECT ${conHost}:${conPort}HTTP/1.1\r\nHost: 157.0.148.53:443\r\nConnection: keep-alive\r\n\r\n`
 console.log("执行完成释放内存")
     $tunnel.write($session, header)
 }
